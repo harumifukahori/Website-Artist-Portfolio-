@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Judson:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: url(imagemfundo.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.cabecalho {
+    font-display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.container {
+    position:static;
+    top: 10%;
+    left: 50%;
+    transform: translate(-70%, -1%);
+}
+.btn {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    border-radius: 9px;
+    background: conic-gradient(#d1c6c6,#d1c6c6);
+    animation: efeito 1.3s ease infinite;
+    transition: 1s ease;
+
+}
+@keyframes efeito {
+    100% {
+        transform:rotate(360dg)
+
+    }
+}
+.container:hover .btn::before{
+    background: #aaa0a0;
+}
+a {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 150px;
+    height: 60px;
+    background:content-box( #d1c6c6, #d1c6c6);
+    text-align: center;
+    line-height: 55px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #695858;
+    letter-spacing: 1px;
+}
+.container-dois {
+    position:static;
+    top: 10%;
+    left: 50%;
+    transform: translate(-70%, -1%);
+}
+.btn-dois {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-dois::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    border-radius: 9px;
+    background: conic-gradient(#d1c6c6,#d1c6c6);
+    animation: efeito 1.3s ease infinite;
+    transition: 1s ease;
+
+}
+@keyframes efeito {
+    100% {
+        transform:rotate(360dg)
+
+    }
+}
+.container-dois:hover .btn-dois::before{
+    background: #aaa0a0;
+}
+a{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 150px;
+    height: 60px;
+    background:content-box( #d1c6c6, #d1c6c6);
+    text-align: center;
+    line-height: 55px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #695858;
+    letter-spacing: 1px;
+}
+.container-tres {
+    position:static;
+    top: 10%;
+    left: 50%;
+    transform: translate(-70%, -1%);
+}
+.btn-tres {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-tres::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    border-radius: 9px;
+    background: conic-gradient(#d1c6c6,#d1c6c6);
+    animation: efeito 1.3s ease infinite;
+    transition: 1s ease;
+
+}
+@keyframes efeito {
+    100% {
+        transform:rotate(360dg)
+
+    }
+}
+.container-tres:hover .btn-tres::before{
+    background: #aaa0a0;
+}
+a{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 150px;
+    height: 60px;
+    background:content-box( #d1c6c6, #d1c6c6);
+    text-align: center;
+    line-height: 55px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #695858;
+    letter-spacing: 1px;
+}
+
+
+
+.conteudo {
+    margin-bottom: 350px;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    position: relative;
+    left: 750px;
+    bottom: -180px;
+    text-align: center;
+    color: #695858;
+    border-bottom: 0.4px solid #948F8F;
+    width: 100%;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-imagem {
+    padding-top: 48px;
+    margin-bottom: 16px;
+}
+
+.rodape {
+    padding: 32px;
+}
+
+.rodape-imagem {
+    position: relative;
+    left: 710px;
+    bottom: 185px;
+    width: 90px;
+
+}
+
+.rodape-imagem-rosto {
+    position: relative;
+    left: 838px;
+    bottom: 185px;
+    width: 80px;
+}
+
+.rodape-imagem-corpo {
+    position: relative;
+    left: 645px;
+    bottom: 185px;
+    width: 80px;
+}
